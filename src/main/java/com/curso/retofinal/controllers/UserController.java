@@ -14,6 +14,7 @@ import java.util.Map;
 @RequestMapping("/users")
 public class UserController {
 
+    @Autowired
     private IUserService userService;
 
     @GetMapping("/{id}")

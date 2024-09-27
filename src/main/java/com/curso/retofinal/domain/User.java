@@ -14,17 +14,20 @@ public class User {
     private String name;
     private Double balance;
 
+    public User() {
+    }
+
     public User(Long userId, String name, Double balance) {
         this.userId = userId;
         this.name = name;
         this.balance = balance;
     }
 
-    public Long getId() {
+    public Long getUserId() {
         return userId;
     }
 
-    public void setId(Long id) {
+    public void setUserId(Long id) {
         this.userId = id;
     }
 

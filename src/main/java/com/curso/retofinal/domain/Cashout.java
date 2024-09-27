@@ -16,6 +16,9 @@ public class Cashout {
         this.amount = amount;
     }
 
+    public Cashout() {
+    }
+
     public String getId() {
         return id;
     }
